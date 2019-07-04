@@ -1,0 +1,61 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background: #91AB82;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+    background: #6ab446;
+    background-image: url("images/books-header-tp.jpg");
+    font-size: 1.5em;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #808080;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    width: 64px;
+    height: 36px;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brand .logoimg2 {
+    display: none;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    z-index: 99;
+}
+
+.navbar-brand:hover .logoimg2 {
+    display: inline;
+}
+
+.header {
+    background-image: url('images/black-bkg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 10px solid #000000;
+    left: 0;
+    top: 0;
+    min-height: 600px;
+}

@@ -1,0 +1,111 @@
+﻿.maillink, .maillink:visited {
+    color: #005732;
+    text-decoration: none;
+}
+.maillink:hover {
+    color: white;
+    background-color: #005732;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 3px;
+}
+.coursedescription {
+    display: block;
+    width: -webkit-fill-available; /*450px;*/
+    height: 5em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.Grid {
+    font-family: 'Kalam', cursive;
+    /*margin: 50px 18px 0 0px;*/
+    margin: 20px auto 0;
+    color: #474747;
+    width: -webkit-fill-available;
+}
+.Grid td {
+    font-family: 'Kalam', cursive;
+    color: white;
+    padding: 2px;
+}
+.Grid th {
+    padding: 4px 2px;
+    font-family: 'Kalam', cursive;
+    color: white;
+    font-size: 0.9em;
+}
+.Grid th a,
+.Grid th a:visited,
+.Grid th a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.Grid th a:hover{
+    color: #00ffff;
+}
+.Grid td a:hover{
+    color: #000;
+}
+.Grid .alt {
+    /*background: #fff url(images/grid-alt-lblk.png) repeat-x top;*/
+}
+.Grid .pgr table {
+    margin: 3px 0;
+}
+.Grid .pgr td {
+    padding: 0 6px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 12px;
+}
+.teacherGrid{
+    margin-top: 1%;
+}
+.btnteacherinsert {
+    margin-top: 20px;
+}
+.teacherGrid table {
+    border: none;
+}
+.teacherGrid .pgr td {
+    font-size: 1rem;
+}
+.Grid .pgr a {
+    color: #808080;
+    text-decoration: none;
+}
+.Grid .pgr a:hover {
+    color: #00ffff;
+    text-decoration: none;
+}
+header h1, header h2 {
+    color: white;
+    font-family: 'Kalam', cursive;
+    margin: 20px 0 0 20px;
+}
+.cmd .btn, .Grid .selectbutton {
+    border: 1px solid #474747;
+    background: #808080;
+    border-radius: 10px;
+    color: #fff;
+}
+.cmd .btn:hover, .Grid .selectbutton:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+#gridTeachers .selectbutton {
+    vertical-align: middle;
+}
+.cmd {
+    padding-bottom: 50px;
+}
+.teachercontent .cmd {
+    width: 213px;
+}
+.containertext {
+    color: #005732;
+}
+.containertext h3{
+    font-weight: bold;
+}

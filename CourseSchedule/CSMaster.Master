@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CSMaster.master.cs" Inherits="CourseSchedule.CSMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Course Schedule</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="cssmain.css" rel="stylesheet" type="text/css" />
+    <link href="estylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="bsscss.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md">
+	    <a class="navbar-brand" href="https://www.southhills.edu/" target="_blank">
+            <img src="images/Full_Logo_White_Transparent.png" height="40">
+	    </a>
+	    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+		    <span class="navbar-toggler-icon">icon</span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="main-navigation">
+		    <ul class="navbar-nav">
+			    <li class="nav-item">
+				    <a class="nav-link" href="Default.aspx">Home</a>
+			    </li>
+			    <li class="nav-item">
+				    <a class="nav-link" href="CourseIndex.aspx">Courses</a>
+			    </li>
+			    <li class="nav-item">
+				    <a class="nav-link" href="TeacherIndex.aspx">Teachers</a>
+			    </li>
+			    <li class="nav-item">
+				    <a class="nav-link" href="About.aspx">About</a>
+			    </li>
+		    </ul>
+	    </div>
+    </nav>
+    <header class="page-header header container-fluid">
+        <h1>
+            <asp:ContentPlaceHolder ID="H1ContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </h1>
+        <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </header>
+    <div id="container" class="container features">
+        <div class="row" style="color: white;">
+				<div class="col-lg-4 col-md-4 col-sm-12 containertext">
+					<h3 class="feature-title">State College</h3>
+					480 Waupelani Drive<br />
+                    State College, PA 16801<br />
+                    814-234-7755<br />
+                    814-234-0926<br />
+                    <a class="maillink" href="mailto:admissions@southhills.edu">admissions@southhills.edu</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 containertext">
+					<h3 class="feature-title">Altoona</h3>
+					541 58th Street<br />
+                    Altoona, PA 16602<br />
+                    814-944-6134<br />
+                    814-944-4684<br />
+                    <a class="maillink" href="mailto:altoona@southhills.edu">altoona@southhills.edu</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 containertext">    
+					<h3 class="feature-title">Lewistown</h3>
+					124 East Market Street<br />
+                    Lewistown, PA 17044<br />
+                    717-248-8140<br />
+                    717-248-9465<br />
+                    <a class="maillink" href="mailto:lewistown2@southhills.edu">lewistown2@southhills.edu</a>
+				</div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</body>
+</html>

@@ -1,0 +1,209 @@
+﻿.chalk {
+    font-family: 'Kalam', cursive;
+    color: white;
+    font-size: 1.25em;
+    display: block;
+    width: 75%;
+    margin: 1% auto 0 auto;
+}
+.ddwrapper select {
+    font-family: 'Kalam', cursive;
+    color: white;
+    background-color: transparent;
+    border: 1px dotted white;
+    -webkit-appearance: menulist;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ddwrapper select option {
+    font-family: 'Kalam', cursive;
+    color: white;
+    background-color: #808080;
+}
+.ddwrapper select option:hover {
+    color: #808080;
+    background-color: white;
+    border-radius: 5px;
+}
+.ccode {
+font-size: 2em;
+}
+.cname {
+    font-size: 1.5em;
+}
+.cdata {
+    font-size: 0.8em;
+}
+
+.chalk a, .chalk a:visited {
+    color: #fff;
+    text-decoration: underline;
+}
+.chalk a:hover {
+    color: #00ffff;
+}
+.chalk-grid, .chalk-dv {
+    font-size: 1.25rem;
+    width: 150%;
+}
+.editItems {
+    display: block;
+    min-width: 800px;
+}
+.ecdata {
+    display: block;
+    width: 150px;
+    float: left;
+}
+.tLabel {
+    vertical-align: middle;
+}
+.form-tb, .form-desc {
+    background-color: transparent;
+    border: 1px dotted white;
+    color: white;
+    width: -webkit-fill-available;
+    height: 20%;
+}
+.detailform td .form-tb {
+    width: -webkit-fill-available;
+}
+.prog-tb {
+    height: 1.7em;
+}
+.chalk-dv td input {
+    width: 175%;
+}
+.chalk-grid {
+    margin: 20px 0 0 5%;
+}
+.chalk-grid td {
+    width: 100%;
+}
+.grid-button-div {
+    min-width: 140px;
+}
+.prog-div {
+    width: 275px;
+}
+.chalk-dv {
+    margin: 15% 10%;
+}
+.chalk-grid .pgr td {
+    height: 1.1em;
+}
+.detailform a, .detailform a:visited, .detailform a:hover {
+    text-decoration: none;
+    color: white;
+}
+.detailform .btn {
+    border: 1px solid #474747;
+    background: #808080;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.detailform .btn:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+.detailform {
+    width: -webkit-fill-available;
+}
+#btnNewTeacher {
+    display: block;
+    margin: 0 auto;
+}
+.teachers {
+    font-size: 1.3em;
+}
+.teacherdetail {
+    clear: both;
+}
+.description table {
+    margin: 0 auto;
+    max-width: 550px;
+}
+.features {
+    font-family: 'Open Sans', sans-serif;
+}
+.courseindex {
+    border-spacing: 0 15px;
+    /*border-collapse: separate;*/
+}
+.courseindex td {
+    padding: 0 15px;
+    width: auto;
+}
+.courseindex a, .courseindex a:visited, .courseindex a:hover {
+    text-decoration: none;
+}
+.courseindex a, .courseindex a:visited {
+    color: white;
+}
+.courseindex a:hover {
+    color: #fff;
+    background-color: #808080;
+    padding: 0 ;
+    margin: 0;
+    border-radius: 7px;
+}
+.courseindex a:active {
+    background-color: #474747;
+}
+
+.description h2 {
+    padding-left: 10%;
+}
+.btn-new-program {
+    color: #ffffff;
+    background-color: none;
+    border-color: none;
+    margin: 0 auto;
+}
+.btn-new-program:hover {
+    background-color: #808080;
+    color: white;
+    border-color: #808080;
+}
+.captions {
+    font-family: 'Kalam', cursive;
+    color: #9f9e9e;
+    font-weight: bold;
+}
+.about {
+    font-family: 'Kalam', cursive;
+    color: white;
+    font-size: 1.5em;
+    margin: 50px;
+}
+.div-button {
+    font-family: 'Kalam', cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-button a, .div-button input {
+    margin-top: 30px;
+    background-color: none;
+    font-family: 'Kalam', cursive;
+}
+.dv-program table {
+    margin-top: 15%;
+}
+.courseEditForm .cdata {
+    font-size: 1.2em;
+}
+.chalk-directions {
+    font-family: 'Kalam', cursive;
+    color: #9f9e9e;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+.coursedescription {
+    width: -webkit-fill-available;
+}
