@@ -1,4 +1,5 @@
-static/* linguist-vendored
+* linguist-vendored
+*.js linguist-vendored=false
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
