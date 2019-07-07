@@ -1,6 +1,8 @@
 * linguist-vendored
 *.aspx linguist-vendored=false
 *.cs linguist-vendored=false
+*.sln linguist-vendored=false
+
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
